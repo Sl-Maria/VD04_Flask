@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>World Wise Traveller</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+     <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">World Wise Traveller</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav  me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/">Главная</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/blog/">Блог</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/contacts/">Контакты</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+     <main class="container mt-4">
+         <br>
+         <br>
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="5000">
+              <img src="../static/img/Paris.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="5000">
+              <img src="../static/img/Peru.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="5000">
+              <img src="../static/img/Sydney.jpg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Предыдущий</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Следующий</span>
+          </button>
+        </div>
+
+         <br>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="card">
+                        <img src="../static/img/Peru2.jpg" class="card-img-top" alt="Перу 13 дней">
+                        <div class="card-body">
+                            <h5 class="card-title">Перу за 13 дней</h5>
+                            <p class="card-text">Погрузитесь в магию Перу! Исследуйте древние руины Мачу-Пикчу,
+                                прогуляйтесь по историческим улицам Куско,
+                                откройте для себя загадочные линии Наска и насладитесь захватывающими видами озера Титикака.
+                                Вкусите местную кухню и познакомьтесь с богатой культурой инков. Перу ждёт вас!</p>
+                            <a href="#" class="btn btn-primary">Узнать программу</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="card">
+                        <img src="../static/img/Paris2.jpg" class="card-img-top" alt="Цветущий Париж">
+                        <div class="card-body">
+                            <h5 class="card-title">Цветущий Париж</h5>
+                            <p class="card-text">Откройте для себя весенний Париж! Прогуляйтесь по цветущим садам Тюильри и
+                                Люксембургскому саду, насладитесь видами с Эйфелевой башни, посетите Лувр и Нотр-Дам.
+                                Ощутите романтику Монмартра и вкусите изысканные блюда французской кухни.
+                                Париж весной — настоящее волшебство!</p>
+                            <a href="#" class="btn btn-primary">Узнать программу</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="card">
+                        <img src="../static/img/Cangaroo.jpg" class="card-img-top" alt="Австралия">
+                        <div class="card-body">
+                            <h5 class="card-title">Большой тур в Австралию</h5>
+                            <p class="card-text">Откройте для себя Австралию! Исследуйте Сидней с его знаменитым Оперным театром,
+                                погрузитесь в подводный мир Большого Барьерного рифа,
+                                посетите потрясающие пляжи Голд-Коста и ощутите величие Красного Центра с Улуру.
+                                Австралия ждёт вас с уникальной природой и культурой!</p>
+                            <a href="#" class="btn btn-primary">Узнать программу</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+         <div class="accordion mt-4" id="faqAccordion">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Порядок оплаты тура
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        Оплата тура обычно делится на два этапа: предоплата при бронировании
+                        и полная оплата перед поездкой. Способы оплаты включают банковские переводы,
+                        кредитные карты и электронные платежные системы. Подробности уточняйте у нашего менеджера
+                    </div>
+                </div>
+            </div>
+             <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Возврат денег за отмененный тур
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        Возврат денег за отмененный тур зависит от условий бронирования
+                        и политики поставщиков услуг. В большинстве случаев возможны штрафы
+                        или удержания. Пожалуйста, ознакомьтесь с условиями договора и свяжитесь
+                        с нашим менеджером для получения подробной информации.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Услуги, включенные в стоимость тура
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        В стоимость тура обычно включены проживание, трансферы, питание и экскурсии по программе.
+                        Некоторые туры также включают и дополнительные услуги. Точные условия зависят
+                        от конкретного тура и будут указаны в договоре. Свяжитесь с нашим менеджером для уточнения деталей.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+     </main>
+
+
+     <footer class="bg-light text-center text-lg-start mt-4">
+        <div class="container p-4">
+            <div class="row">
+                <div class="col-12 ">
+                    <h5 class="text-uppercase">World Wise Traveller 2024</h5>
+                    <p>
+                        Телефон: +123 456 7890
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
