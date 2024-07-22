@@ -1,0 +1,83 @@
+{% extends 'base.html' %}
+
+    {% block title %}
+        World Wise Traveller - О нас
+    {% endblock %}
+    {% block content %}
+        <header class="bg-dark text-white text-center py-3">
+            <h1 class="mb-0">World Wise Traveller</h1>
+        </header>
+
+          <!-- Hero Section -->
+          <section class="hero-section">
+            <div class="container">
+              <h2 class="display-4">О Нас</h2>
+              <p class="lead">Ваш Компаньон в Увлекательных Путешествиях</p>
+            </div>
+          </section>
+
+          <!-- Mission Section -->
+          <section class="mission-section">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-6">
+                  <h3>Наша Миссия</h3>
+                  <p>Наша миссия в World Wise Traveller заключается в том,
+                    чтобы предоставлять клиентам уникальные и незабываемые путешествия,
+                    которые обогащают их жизни и расширяют горизонты. Мы верим, что
+                    каждый человек заслуживает возможность открыть для себя новые культуры,
+                    погрузиться в захватывающие приключения и создать воспоминания,
+                    которые останутся на всю жизнь.
+                  </p>
+                  <p>
+                    Мы стремимся к тому, чтобы каждая поездка была тщательно продумана
+                    и персонализирована, учитывая уникальные предпочтения
+                    и интересы наших клиентов. Наша команда экспертов работает не
+                    покладая рук, чтобы предложить маршруты, которые включают
+                    в себя как популярные достопримечательности, так и скрытые
+                    жемчужины, известные только местным жителям.
+                  </p>
+                </div>
+                <div class="col-md-6">
+                  <img src="../static/img/mission.jpg" class="img-fluid" alt="Mission Image">
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Team Section -->
+          <section class="team-section">
+            <div class="container">
+              <h3 class="text-center mb-5">Наша Команда</h3>
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="card">
+                    <img src="../static/img/user1.jpg" class="card-img-top" alt="Team Member 1">
+                    <div class="card-body">
+                      <h5 class="card-title">Иван Иванов</h5>
+                      <p class="card-text">Генеральный директор</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card">
+                    <img src="../static/img/user3.jpg" class="card-img-top" alt="Team Member 2">
+                    <div class="card-body">
+                      <h5 class="card-title">Мария Петрова</h5>
+                        <p class="card-text">Маркетинг директор</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card">
+                    <img src="../static/img/user2.jpg" class="card-img-top" alt="Team Member 3">
+                    <div class="card-body">
+                      <h5 class="card-title">Алексей Смирнов</h5>
+                      <p class="card-text">Менеджер по продажам</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+    {% endblock %}
